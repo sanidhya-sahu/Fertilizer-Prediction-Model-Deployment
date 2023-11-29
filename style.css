@@ -56,4 +56,5 @@ body {
     border-radius: 10px;
     height: 120px;
     padding: 10px;
+    transition: all 100ms ease;
 }
