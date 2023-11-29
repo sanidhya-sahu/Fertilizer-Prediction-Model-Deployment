@@ -1,0 +1,59 @@
+body {
+    font-family: "General Sans", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    background-image: url('bg3.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.number-selector {
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 350px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 8px;
+    margin-bottom: 20px;
+    /* Add margin-bottom for spacing */
+}
+
+
+.input-field {
+    border: 1px solid;
+    border-radius: 20px;
+    height: 40px;
+    background-color: #343A3F;
+    border-color: transparent;
+    color: #ffffff;
+}
+
+.number-selector:last-child {
+    margin-right: 0;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.result{
+    font-size: x-large;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 120px;
+    padding: 10px;
+}
